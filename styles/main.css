@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    /* base font-size for em's is dynamically inserted in app-main.html */
+}
+
+.full-screen {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* NAVIGATION */
+.mainnav {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 0.2em;
+    text-align: center;
+}
+
+
+
+
+/* FLEX SCROLLVIEW STYLES */
+
+
+/**
+ * Scrollview element-category
+ */
+.element-category {
+    background: rgba(0, 49, 98, 0.64);
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 10;
+    /*background: white;*/
+    /* disable text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.element-category .text{
+
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+/**
+ * Scrollview elements
+ */
+.element {
+    /* disable text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    background: white;
+}
+
+.element.header {
+    padding: 1px 0px 0px 0px;
+}
+
+.element .back {
+    background-color: #DDDDDD;
+    padding: 8px 8px 8px 8px;
+    float: left;
+    width: 100%;
+}
+
+.element .headline {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.element .content {
+
+    font-size: 16px;
+    word-wrap: break-word;
+    -word-break: break-all;
+}
+
+
+
+
+
+
+
+
